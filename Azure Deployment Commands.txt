@@ -1,5 +1,0 @@
-az appservice plan create --name papillonPlan --resource-group TeamAlex-rg --sku free
-az webapp create --resource-group TeamAlex-rg --plan papillonPlan --name papillonapp --runtime "PHP|7.4" --deployment-source-url "https://github.com/alexknipper/papillon-azure.git"
-
-az appservice plan create --name papillonPlan2 --resource-group TeamAlex-rg --sku free --location "Japan East"
-az webapp create --resource-group TeamAlex-rg --plan papillonPlan2 --name papillonapp2 --runtime "PHP|7.4" --deployment-source-url "https://github.com/alexknipper/papillon-azure.git"
